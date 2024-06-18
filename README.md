@@ -41,8 +41,13 @@ Highlighting these relationships helped us gain a deeper understanding of the da
 # 👣 Our Approach  
 Real estate analysis typically attempts to predict price, a continuous variable. However, we took a classification approach to this problem, since classification introduces a layer of interpretability and simplicity to our analysis which can be beneficial for business professionals and prospective buyers. By categorizing properties into pricing tiers (high and low), we aim to compare the accuracy and performance of each of the selected models.    
 
-# 🧼 Data Cleaning  
-1. 
+# 🧽 Data Cleaning  
+1. We discretized the dependent variable.   
+   <br>
+      <img src="Images/img-06.png" width="500">
+   <br>  
+2. Then, we filled in the missing values with the mean and median values. Specifically, we used the median for the missing values in the acre_lot, house_size, and price columns. Additionally, rows that had missing values in the city and zip_code columns were removed. Lastly, the records for Tennesse, South Carolina, and Virginia were removed because they contained a substantial amount of missing data.  
+
  
 
 
