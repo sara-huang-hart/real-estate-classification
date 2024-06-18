@@ -4,6 +4,11 @@ Real estate is the largest asset class in the world. It holds significant busine
 
 This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset/data) from Kaggle.  
 
+Project questions:  
+- Which features play a significant role in determining housing price classification?
+- Which machine learning algorithms are best for our analysis?
+- What business implications do our findings have?  
+
 <i>In collaboration with Yilu Chen, Andrew Gatchalian, Hsuan-Yi Lin, and Rakesh Venkata Subramaniyan.</i>  
 
 # 📊 Exploratory Data Analysis  
@@ -33,6 +38,8 @@ This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/
 
 Highlighting these relationships helped us gain a deeper understanding of the data which offered valuable insight as we continued our analysis through machine learning models.  
 
+# 🧽 Data Cleaning  
+1. 
  
 
 
