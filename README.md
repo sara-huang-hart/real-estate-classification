@@ -38,6 +38,9 @@ This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/
 
 Highlighting these relationships helped us gain a deeper understanding of the data which offered valuable insight as we continued our analysis through machine learning models.  
 
+# 👣 Our Approach  
+Real estate analysis typically attempts to predict price, a continuous variable. However, we took a classification approach to this problem, since classification introduces a layer of interpretability and simplicity to our analysis which can be beneficial for business professionals and prospective buyers. By categorizing properties into pricing tiers (high and low), we aim to compare the accuracy and performance of each of the selected models.    
+
 # 🧼 Data Cleaning  
 1. 
  
