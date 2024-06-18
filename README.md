@@ -18,7 +18,10 @@ This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/
    <br>
       <img src="Images/img-02.png" width="300">
    <br>  
-- In this dataset, New York appears to be the state with the highest average property price at over $1.4 million, whereas West Virginia appears to be the state with the lowest average property price, averaging around $62,000 per property. 
+- In this dataset, New York appears to be the state with the highest average property price at over $1.4 million, whereas West Virginia appears to be the state with the lowest average property price, averaging around $62,000 per property. Additionally, the property price seems to increase in high density urban areas such as New York City and parts of Boston, as shown in the map below.
+   <br>
+      <img src="Images/img-03.png" width="300">
+   <br>  
  
 
 
