@@ -10,7 +10,7 @@ This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/
 - The presence of outliers is evident, particularly in features like bed, bath, acre_lot, and house_size.
 - The average property listing was priced at $886,657 with a standard deviation of over $2M indicating a large distribution range.
 - There are missing values in the dataset that inaccurately represent some listings.
-- The data represents a wide range of states that cover the Eastern, Mid-Atlantic, and Caribbean territories. As shown in the bar chart below, New York and New Jersey are the states that account for over 500,000 listings combined, followed by Massachusetts with approximately 175,000 listings.
+- The data represents a wide range of states that cover the Eastern, Mid-Atlantic, and Caribbean territories. As shown in the bar chart below, New York and New Jersey are the states that account for over 500,000 listings combined, followed by Massachusetts with approximately 175,000 listings.  
    <br>
       <img src="Images/img-01.png" width="300">
    <br>
