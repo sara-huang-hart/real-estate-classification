@@ -4,7 +4,7 @@ Real estate is the largest asset class in the world. It holds significant busine
 
 This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset/data) from Kaggle.  
 
-<i>In collaboration with Yilu Chen, Andrew Gatchalian, Hsuan-Yi Lin, and Rakesh Venkata Subramaniyan</i>  
+<i>In collaboration with Yilu Chen, Andrew Gatchalian, Hsuan-Yi Lin, and Rakesh Venkata Subramaniyan.</i>  
 
 # 📊 Exploratory Data Analysis  
 - The presence of outliers is evident, particularly in features like bed, bath, acre_lot, and house_size.
@@ -18,7 +18,7 @@ This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/
    <br>
       <img src="Images/img-02.png" width="300">
    <br>  
-- 
+- In this dataset, New York appears to be the state with the highest average property price at over $1.4 million, whereas West Virginia appears to be the state with the lowest average property price, averaging around $62,000 per property. 
  
 
 
