@@ -46,7 +46,10 @@ Real estate analysis typically attempts to predict price, a continuous variable.
    <br>
       <img src="Images/img-06.png" width="500">
    <br>  
-2. Then, we filled in the missing values with the mean and median values. Specifically, we used the median for the missing values in the acre_lot, house_size, and price columns. Additionally, rows that had missing values in the city and zip_code columns were removed. Lastly, the records for Tennesse, South Carolina, and Virginia were removed because they contained a substantial amount of missing data.  
+2. Then, we filled in the missing values with the mean and median values. Specifically, we used the median for the missing values in the acre_lot, house_size, and price columns. Additionally, rows that had missing values in the city and zip_code columns were removed. Lastly, the records for Tennessee, South Carolina, and Virginia were removed because they contained a substantial amount of missing data.
+   <br>
+      <img src="Images/img-07.png" width="500">
+   <br>  
 
  
 
