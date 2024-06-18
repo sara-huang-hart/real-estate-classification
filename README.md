@@ -38,7 +38,7 @@ This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/
 
 Highlighting these relationships helped us gain a deeper understanding of the data which offered valuable insight as we continued our analysis through machine learning models.  
 
-# 🧽 Data Cleaning  
+# 🧼 Data Cleaning  
 1. 
  
 
