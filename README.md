@@ -49,8 +49,18 @@ Real estate analysis typically attempts to predict price, a continuous variable.
 2. Then, we filled in the missing values with the mean and median values. Specifically, we used the median for the missing values in the acre_lot, house_size, and price columns. Additionally, rows that had missing values in the city and zip_code columns were removed. Lastly, the records for Tennessee, South Carolina, and Virginia were removed because they contained a substantial amount of missing data.  
    <br>
       <img src="Images/img-07.png" width="600">
+   <br>
+
+This "cleaned" dataset served as our initial benchmark for subsequent machine learning experiments.  
+
+# 🔍 Machine Learning Models  
+<b>Random Forest Classifier</b>  
+Without any pre-processing techniques, the results are as follows:  
+   <br>
+      <img src="Images/img-08.png" width="600">
    <br>  
 
+The model predicts approximately 92% of instances correctly.
  
 
 
