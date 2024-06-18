@@ -13,8 +13,12 @@ This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/
 - The data represents a wide range of states that cover the Eastern, Mid-Atlantic, and Caribbean territories. As shown in the bar chart below, New York and New Jersey are the states that account for over 500,000 listings combined, followed by Massachusetts with approximately 175,000 listings.  
    <br>
       <img src="Images/img-01.png" width="300">
+   <br>  
+- The variables bed, bath, and house_size are positively correlated to price, meaning that the property price tends to increase as these features increase, as shown in the heat map below. (The redder the square, the weaker the correlation. The darker the gray or black, the stronger the correlation.)  
    <br>
-- The variables bed, bath, and house_size are positively correlated to price, meaning that the property price tends to increase as these features increase.
+      <img src="Images/img-02.png" width="300">
+   <br>  
+- 
  
 
 
