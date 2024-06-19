@@ -2,12 +2,12 @@
 
 Real estate is the largest asset class in the world. It holds significant business implications for investors, real estate professionals, and potential homeowners. Forecasting housing trends can help promote more well-informed decisions when buying, selling, or investing in properties. For individuals and businesses, these insights can become a useful tool to gain a competitive edge when navigating through the world of real estate. Understanding the relationship between the physical attributes of a property and its market value is important for both real estate professionals and prospective buyers.    
 
-Project questions:  
+Our project questions include:   
 - Which features play a significant role in determining housing price classification?
 - Which machine learning algorithms are best for our analysis?
 - What business implications do our findings have?
 
-This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset/data) from Kaggle.  
+This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset/data) from Kaggle.    
 
 <i>In collaboration with Yilu Chen, Andrew Gatchalian, Hsuan-Yi Lin, and Rakesh Venkata Subramaniyan.</i>  
 
@@ -60,7 +60,9 @@ Without any pre-processing techniques, the results are as follows:
       <img src="Images/img-08.png" width="600">
    <br>  
 
-The model predicts approximately 92% of instances correctly.
+The model predicts approximately 92% of instances correctly. The precision and recall of the model are relatively high, at 0.92, indicating a low rate of false positives and negatives. Additionally, the high F1-score implies that this model performs well. Overall, the initial benchmark for the Random Forest algorithm on this dataset demonstrates strong performance with high accuracy.  
+
+
  
 
 
