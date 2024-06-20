@@ -39,14 +39,14 @@ This project uses the USA Real Estate [dataset](https://www.kaggle.com/datasets/
 Highlighting these relationships helped us gain a deeper understanding of the data which offered valuable insight as we continued our analysis through machine learning models.  
 
 # 👣 Our Approach  
-Real estate analysis typically attempts to predict price, a continuous variable. However, we took a classification approach to this problem, since classification introduces a layer of interpretability and simplicity to our analysis which can be beneficial for business professionals and prospective buyers. By categorizing properties into pricing tiers (high and low), we aim to compare the accuracy and performance of each of the selected models.    
+Real estate analysis typically attempts to predict price, a continuous variable. However, we took a classification approach to this problem, since classification introduces a layer of interpretability and simplicity to our analysis, which can benefit business professionals and prospective buyers. By categorizing properties into pricing tiers (high and low), we aim to compare the accuracy and performance of each of the selected models.    
 
 # 🧽 Data Cleaning  
 1. We discretized the dependent variable.   
    <br>
       <img src="Images/img-06.png" width="600">
    <br>  
-2. Then, we filled in the missing values with the mean and median values. Specifically, we used the median for the missing values in the acre_lot, house_size, and price columns. Additionally, rows that had missing values in the city and zip_code columns were removed. Lastly, the records for Tennessee, South Carolina, and Virginia were removed because they contained a substantial amount of missing data.  
+2. Then, we filled in the missing values with the mean and median values. Specifically, we used the median for the missing values in the acre_lot, house_size, and price columns. Additionally, rows with missing values in the city and zip_code columns were removed. Lastly, the records for Tennessee, South Carolina, and Virginia listings were removed because they contained a substantial amount of missing data.  
    <br>
       <img src="Images/img-07.png" width="600">
    <br>
@@ -60,11 +60,15 @@ This "cleaned" dataset served as our initial benchmark for subsequent machine le
       <img src="Images/img-08.png" width="600">
    <br>  
 The model predicts approximately 92% of instances correctly. The precision and recall of the model are relatively high, at 0.92, indicating a low rate of false positives and negatives. Additionally, the high F1-score implies that this model performs well. Overall, the initial benchmark for the Random Forest algorithm on this dataset demonstrates strong performance with high accuracy.  
-- We attempted to enhance the model with random sampling, dummy variables for the state attribute, feature selection, binning, min-max scaling, and standardization pre-processing techniques. Random sampling reduced the dataset for additional features while maintaining a similar model accuracy. Implementing dummy variables for the state attribute did not change the accuracy. Since the number of attributes in the original dataset is not extremely large, feature selection was not useful. Binning seemed to underscore the nature of the data which decreased its accuracy. Standardization seemed to improve the previous pre-processing, but it had minimal effect on improving the accuracy.
+- We attempted to enhance the model with random sampling, dummy variables for the state attribute, feature selection, binning, min-max scaling, and standardization pre-processing techniques. Random sampling reduced the dataset for additional features while maintaining a similar model accuracy. Implementing dummy variables for the state attribute did not change the accuracy. Since the number of attributes in the original dataset is not extremely large, feature selection was not useful. Binning underscored the nature of the data which decreased its accuracy. Standardization improved the previous pre-processing, but it had minimal effect on improving the accuracy.
    <br>
       <img src="Images/img-09.png" width="600">
    <br>
-Overall, pre-processing 
+Overall, the Random Forest model that performed the best was the benchmark model (with no pre-processing). Many of the additional pre-processing techniques either worsened or had no impact relative to the original accuracy. However, a finding that was gained from the pre-processing was that price is likely to be influenced by location since adding the dummy variables for the state attribute improved the randomly sampled model.
+<b>K-Nearest Neighbors Classifier</b>
+- 
+
+
 
 
  
