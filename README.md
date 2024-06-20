@@ -54,7 +54,7 @@ Real estate analysis typically attempts to predict price, a continuous variable.
 This "cleaned" dataset served as our initial benchmark for subsequent machine learning experiments.  
 
 # 🔍 Machine Learning Models  
-<b>Random Forest Classifier</b>  
+##### Random Forest Classifier    
 - Without any pre-processing techniques, the results are as follows:  
    <br>
       <img src="Images/img-08.png" width="400">
@@ -65,7 +65,8 @@ The model predicts approximately 92% of instances correctly. The precision and r
       <img src="Images/img-09.png" width="400">
    <br>  
 Overall, the Random Forest model that performed the best was the benchmark model (with no pre-processing). Many of the additional pre-processing techniques either worsened or had no impact relative to the original accuracy. However, a finding that was gained from the pre-processing was that price is likely to be influenced by location since adding the dummy variables for the state attribute improved the randomly sampled model.
-<b>K-Nearest Neighbors Classifier</b>
+
+##### K-Nearest Neighbors Classifier  
 - Without any pre-processing techniques, the results are as follows:  
    <br>
       <img src="Images/img-10.png" width="400">
@@ -75,8 +76,9 @@ This model predicts approximately 88% of instances correctly. The model's precis
    <br>
       <img src="Images/img-11.png" width="400">
    <br>  
-Overall, the KNN model achieved optimal results when applied to the standardization of the bed, bath, acre_lot, and house_size attributes. The standardized KNN model achieved an 88.5% accuracy. a slight increase of 0.1% from the benchmark model.   
-<b>Logistic Regression</b>
+Overall, the KNN model achieved optimal results when applied to the standardization of the bed, bath, acre_lot, and house_size attributes. The standardized KNN model achieved an 88.5% accuracy. a slight increase of 0.1% from the benchmark model.  
+
+##### Logistic Regression  
 - Without any pre-processing techniques, the results are as follows:  
    <br>
       <img src="Images/img-12.png" width="400">
