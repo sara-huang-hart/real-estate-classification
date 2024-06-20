@@ -57,7 +57,7 @@ This "cleaned" dataset served as our initial benchmark for subsequent machine le
 <b>Random Forest Classifier</b>  
 - Without any pre-processing techniques, the results are as follows:  
    <br>
-      <img src="Images/img-08.png" width="500">
+      <img src="Images/img-08.png" width="400">
    <br>  
 The model predicts approximately 92% of instances correctly. The precision and recall of the model are relatively high, at 0.92, indicating a low rate of false positives and negatives. Additionally, the high F1-score implies that this model performs well. Overall, the initial benchmark for the Random Forest algorithm on this dataset demonstrates strong performance with high accuracy.  
 - We attempted to enhance the model with random sampling, dummy variables for the state attribute, feature selection, binning, min-max scaling, and standardization pre-processing techniques. Random sampling reduced the dataset for additional features while maintaining a similar model accuracy. Implementing dummy variables for the state attribute did not change the accuracy. Since the number of attributes in the original dataset is not extremely large, feature selection was not useful. Binning underscored the nature of the data which decreased its accuracy. Standardization improved the previous pre-processing, but it had minimal effect on improving the accuracy.  
