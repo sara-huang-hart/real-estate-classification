@@ -95,7 +95,8 @@ We implemented three machine learning models to predict whether a real estate li
 
 For this dataset, the best model seemed to be the Random Forest algorithm with no pre-processing. This model had the highest accuracy of 92%. Property location also seemed to be the attribute that plays a significant role in price.  
 
-# 🤓 Lessons Learned and Project Improvements  
+# ☁️ Project Improvements  
+This project was for the first machine learning class that I have taken, and it was also the first project where I applied machine learning algorithms. Knowing what I know now if I were to improve this project, I would focus on improving the Random Forest model since it had the highest accuracy using different boosting methods, such as Adaptive Boosting and Gradient Boosting.  
 
 
 
