@@ -66,8 +66,15 @@ The model predicts approximately 92% of instances correctly. The precision and r
    <br>
 Overall, the Random Forest model that performed the best was the benchmark model (with no pre-processing). Many of the additional pre-processing techniques either worsened or had no impact relative to the original accuracy. However, a finding that was gained from the pre-processing was that price is likely to be influenced by location since adding the dummy variables for the state attribute improved the randomly sampled model.
 <b>K-Nearest Neighbors Classifier</b>
-- 
-
+- Without any pre-processing techniques, the results are as follows:
+   <br>
+      <img src="Images/img-10.png" width="600">
+   <br>
+This model predicts approximately 88% of instances correctly. The model's precision and recall are commendably high, at 0.87, suggesting a low frequency of false positives and negatives. The high F1-score further confirms the model's effectiveness. However, this model appears to be less accurate than the Random Forest model with a 92% overall accuracy.
+- The pre-processing techniques that we employed were random sampling, an introduction of dunny variables for the states attribute, feature selection, binning, min-max scaling, and standardization. Most of the techniques were moderately effective, but they tended to distort the true nature of the data, leading to less accurate predictions. Standardization offered some improvement over the other pre-processing techniques. However, the impact it had on the overall accuracy was insignificant.   
+   <br>
+      <img src="Images/img-11.png" width="600">
+   <br>
 
 
 
