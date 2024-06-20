@@ -84,11 +84,13 @@ Overall, the KNN model achieved optimal results when applied to the standardizat
       <img src="Images/img-12.png" width="400">
    <br>  
 This model predicts approximately 70% of instances correctly. The model's precision and recall contained mixed results. As noted by the F1-score of 0.65 for the "high" class and 0.74 for the "low" class, this seems to suggest that the model is better at identifying the "low" class data points. Overall, this Logistic Regression model has room for improvement, particularly in capturing the "high" class data points.
-- Similar to the Random Forest and KNN models, the pre-processing techniques that we employed were random sampling, an introduction of dunny variables for the states attribute, feature selection, binning, min-max scaling, and standardization. Implementing dummy variables for the states attribute increased the model's accuracy to 72%. Standardization and binning on the house_size attribute improved the model's accuracy to 75%.
+- Similar to the Random Forest and KNN models, the pre-processing techniques that we employed were random sampling, an introduction of dunny variables for the states attribute, feature selection, binning, min-max scaling, and standardization. Implementing dummy variables for the states attribute increased the model's accuracy to 72%. Standardization and binning on the house_size attribute improved the model's accuracy to 75%.  
    <br>
       <img src="Images/img-13.png" width="400">
-   <br>
-Overall, the Logistic Regression approach had better performance in two separate instances, binning on the house_size attribute and a mixture of random sampling, dummy variables, and standardization. Both models achieved an accuracy of around 75%, an improvement of approximately 5% from the benchmark model.  
+   <br>  
+Overall, the Logistic Regression approach had better performance in two separate instances, binning on the house_size attribute and a mixture of random sampling, dummy variables, and standardization. Both models achieved an accuracy of around 75%, an improvement of approximately 5% from the benchmark model.
+
+
 
 
 
